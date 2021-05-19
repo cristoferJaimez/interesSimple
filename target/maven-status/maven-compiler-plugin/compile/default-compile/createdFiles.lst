@@ -1,0 +1,7 @@
+Controllers/interesSimpleController.class
+JPA/interesSimpleJPA.class
+pruebapractica/interessimple/JAXRSConfiguration.class
+pruebapractica/interessimple/resources/JavaEE8Resource.class
+Entity/Tabla.class
+Interface/IinteresSimple.class
+Services/InteresSimpleServices.class
