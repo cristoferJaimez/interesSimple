@@ -49,20 +49,17 @@
                         </goals>
                         <configuration>
                             <artifactItems>
-                                <artifacItem>
+                                <artifactItem>
                                     <groupId>com.github.jsimone</groupId>
                                     <artifactId>webapp-runner</artifactId>
                                     <version>8.5.31.0</version>
-                                    <destFileName>webapp.runner.jar</destFileName>
-                                </artifacItem>
+                                    <destFileName>webapp-runner.jar</destFileName>
+                                </artifactItem>
                             </artifactItems>
-                          
                         </configuration>
                     </execution>
                 </executions>
-                
             </plugin>
-            
             
         </plugins>
     </build>
