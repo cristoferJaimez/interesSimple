@@ -54,9 +54,9 @@ public class interesSimpleController implements Serializable {
             double valorC = (double) valor / numCota;
             double total = (double) valorC + inte;
             neto = 0;
-            System.out.println(inte);
-            System.out.println(valorC);
-            System.out.println(total);
+//            System.out.println(inte);
+//            System.out.println(valorC);
+//            System.out.println(total);
 
             for (int i = 1; i <= numCota; i++) {
                 neto = (double) neto + total;
@@ -65,7 +65,12 @@ public class interesSimpleController implements Serializable {
 
             System.out.println(neto);
 
+            msm = "msmOK";
+
         } catch (Exception e) {
+            msm = "msmBad";
+
+            System.out.println("error -> " + e.getMessage());
 
         }
     }
